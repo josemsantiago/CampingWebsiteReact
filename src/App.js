@@ -5,13 +5,13 @@ import CampsitesList from './features/campsites/CampsitesList';
 import Header from './components/Header';
 
 function App() {
-	return (
-		<div className='App'>
-			<Header />
-			<CampsitesList />
+  return (
+    <div className="App">
+      <Header />
+      <CampsitesList />
       <Footer />
-		</div>
-	);
+    </div>
+  );
 }
 
 export default App;
